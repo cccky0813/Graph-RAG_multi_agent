@@ -1,0 +1,59 @@
+# 医疗知识图谱问答系统依赖
+# Neo4j数据库连接
+py2neo==2021.2.3
+
+# OpenAI API客户端
+openai>=1.0.0
+
+# 科学计算和机器学习
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# 控制台美化输出
+rich>=13.0.0
+
+# Web框架
+Flask>=2.3.0
+ansi2html>=1.6.0
+
+# 语音识别相关
+soundfile>=0.12.1
+websocket-client>=1.6.1
+gevent>=22.10.0
+
+# HTTP请求
+requests>=2.31.0
+
+# 命令行参数解析（Python标准库，无需安装）
+# argparse
+
+# JSON处理（Python标准库，无需安装）
+# json
+
+# 正则表达式（Python标准库，无需安装）
+# re
+
+# 时间处理（Python标准库，无需安装）
+# time
+
+# 操作系统接口（Python标准库，无需安装）
+# os
+
+# 类型提示（Python标准库，无需安装）
+# typing
+
+# 集合模块（Python标准库，无需安装）
+# collections 
+
+# FastSAM图像分割依赖
+matplotlib>=3.2.2
+opencv-python>=4.6.0
+Pillow>=7.1.2
+PyYAML>=5.3.1
+scipy>=1.4.1
+torch>=1.7.0
+torchvision>=0.8.1
+tqdm>=4.64.0
+pandas>=1.1.4
+seaborn>=0.11.0
+ultralytics>=8.0.120
